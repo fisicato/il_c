@@ -1,4 +1,4 @@
-/* Calcolo delle radici di un'equazuibe du secondo grado */
+/* Calcolo delle radici di un'equazione di secondo grado */
 
 #include <stdio.h>
 #include <math.h>
@@ -14,8 +14,8 @@ int main (){
 	delta = b*b - (4.0 * a * c);	
 	if (delta < 0) {
 		printf("L'equazione ha soluzioni immaginarie.");
-		printf("La prima soluzione immaginaria è %lf - %lf i", (-b/(2*a)), (sqrt(-delta)/(2*a)));
-		printf("La seconda soluzione immaginaria è %lf + %lf i", (-b/(2*a)), (sqrt(-delta)/(2*a)));
+		printf("La prima soluzione immaginaria Ã¨ %lf - %lf i", (-b/(2*a)), (sqrt(-delta)/(2*a)));
+		printf("La seconda soluzione immaginaria Ã¨ %lf + %lf i", (-b/(2*a)), (sqrt(-delta)/(2*a)));
 	}
 	else if (delta== 0) {
 		root1 = - b/(2*a);
